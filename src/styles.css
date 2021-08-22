@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.answerBox {
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.answerSelected {
+  background-color: yellow;
+}
+
+.answerCorrect {
+  background-color: green;
+  color: white;
+}
+
+.answerIncorrect {
+  background-color: red;
+  color: white;
+}
+
+.answered {
+  cursor: not-allowed;
+}
